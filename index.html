@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nikhil Fitness</title>
+    <link rel="stylesheet" href="">
+    <style>
+        body {
+
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background: url(yoga-6723315_1280.jpg);
+            height: 800px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+        }
+            .left {
+                position: absolute;
+                left: 35px;
+                top: 15px;
+                display: inline-block;
+                border: 2px solid red;
+
+            }
+
+            .left img {
+                width: 75 px;
+                height: 75px;
+            }
+
+            .left div {
+                text-align: center;
+                /* To center a Nikhil Fitness text */
+            }
+
+            .mid {
+                display: block;
+                width: 50%;
+                margin: 25px auto;
+                border: 2px solid green;
+
+            }
+
+            .right {
+
+                position: absolute;
+                right: 23px;
+                top: 20px;
+                display: inline-block;
+                margin: 10px;
+                border: 2px solid yellow;
+
+            }
+
+            .right .btn {
+                font-size: 15px;
+            }
+
+            .navbar {}
+
+            .navbar li {
+                display: inline-block;
+                font-size: 20px;
+
+
+            }
+
+            .navbar li a {
+                color: white;
+                text-decoration: none;
+                /* To remove the under line from navbar ,which was due to anchor tag */
+                padding: 34px 15px;
+            }
+
+            .navbar li a:hover,
+            .navbar li a.active {
+                text-decoration: underline;
+                color: black;
+            }
+
+            .btn {
+                background-color: rgb(16, 17, 18);
+                color: white;
+                margin: 5px auto;
+                padding: 4px 10px;
+                font-size: 20px;
+                border-radius: 10px;
+
+            }
+
+            .container {
+                text-align: center;
+                border: 2px solid gold;
+                font-size: 13px;
+                margin: 50px 50px;
+                padding: 20px 20px;
+                width: 33%;
+                border-radius: 2px;
+            }
+
+            .form-group input {
+                text-align: center;
+                display: block;
+                font-size: 15px;
+                margin: 8px auto;
+                padding: 4px 3px;
+                width: 383px;
+                border-radius: 8px;
+            }
+
+            .container button {
+                text-align: center;
+                font-size: 15px;
+                margin: auto;
+                padding: 4px 3px;
+                width: 393px;
+                border-radius: 8px;
+            }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="WhatsApp Image 2023-08-12 at 11.27.56 PM.jpeg" alt="">
+            <div>Nikhil Fitness</div>
+        </div>
+
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <!-- right box for buttons -->
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+        <div class="container">
+            <h1>Join the best Gym of Pune now</h1>
+            <form action="noaction.php">
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Name">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Age">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Gender">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Locality">
+                </div>
+                <button>Submit</button>
+            </form>
+        </div>
+    </header>
+</body>
+
+</html>
